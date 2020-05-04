@@ -1,11 +1,10 @@
 import Link from 'next/link';
 
-
-function HomePage() {
+function AboutPage() {
     return <div>
                 <h1>Next.js</h1>
-                <Link href="/">Go to Home Page</Link> 
+                <Link href="/"><a>Go to Home Page</a></Link> 
             </div>
   }
   
-  export default HomePage
+  export default AboutPage
